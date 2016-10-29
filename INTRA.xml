@@ -13,20 +13,20 @@
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="82">
-            <field name="TEXT">Hello i am George's robot.</field>
+          <block type="oled_setcursor" id="158" inline="true">
+            <value name="STARTX">
+              <block type="math_number" id="183">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <value name="STARTY">
+              <block type="math_number" id="190">
+                <field name="NUM">0</field>
+              </block>
+            </value>
             <next>
-              <block type="oled_setcursor" id="158" inline="true">
-                <value name="STARTX">
-                  <block type="math_number" id="183">
-                    <field name="NUM">0</field>
-                  </block>
-                </value>
-                <value name="STARTY">
-                  <block type="math_number" id="190">
-                    <field name="NUM">0</field>
-                  </block>
-                </value>
+              <block type="oled_drawtext" id="82">
+                <field name="TEXT">Hello i am George's robot.</field>
               </block>
             </next>
           </block>
